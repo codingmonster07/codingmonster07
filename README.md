@@ -1,4 +1,5 @@
 ## Hi there 👋
+<a href="https://app.daily.dev/abhisekdas"><img src="https://api.daily.dev/devcards/v2/Mk58cwFY5lv78piWTmGB1.png?type=default&r=0rv" width="356" alt="Abhisek Das's Dev Card"/></a>
   🔭 I’m currently working on Coding through AI Prompting
 - 🌱 I’m currently learning AI and Mathematics pertaining to it
 - 👯 I’m looking to collaborate on Ideas and Innovation 
