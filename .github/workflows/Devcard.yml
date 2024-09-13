@@ -1,1 +1,19 @@
-<a href="https://app.daily.dev/abhisekdas"><img src="https://api.daily.dev/devcards/v2/Mk58cwFY5lv78piWTmGB1.png?type=default&r=36g" width="356" alt="Abhisek Das's Dev Card"/></a>
+name: daily-devcard
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  devcard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: devcard
+        uses: dailydotdev/action-devcard@3.0.0
+        with:
+          user_id: ${{ secrets.USER_ID }}
+          commit_message: "chore: update ${filename}"
